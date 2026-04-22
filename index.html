@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Site</title>
+</head>
+<body>
+
+    <header>
+        <h1>Cariera in IT</h1>
+        <p>Descoperă domeniile din lumea calculatoarelor</p>
+    </header>
+
+    <nav>
+        <a href="#despre">Despre IT</a>
+        <a href="#domenii">Domenii</a>
+        <a href="#salarii">Salarii</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+    <section id="despre">
+        <h2>Ce este domeniul IT?</h2>
+
+        <p>IT (Information Technology) este domeniul tehnologiei informației.
+        Include programarea, rețelele de calculatoare, securitatea informatică
+        și dezvoltarea aplicațiilor.
+        </p>
+
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475">
+    </section>
+
+    <section id="domenii">
+        <h2>Domenii populare in IT</h2>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Programare</h3>
+                <p>Crearea aplicatiilor si situri-lor web.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Cuber Security</h3>
+                <p>Configurarea rețelelor de calculatoare.</p>
+            </div>
+
+            <div class="card">
+                <h3>Administrator Retea</h3>
+                <p>Configurarea retelelor de calculatoare.</p>
+            </div>
+
+            <div class="card">
+                <h3>Game Developer</h3>
+                <p>Crearea jocurilor video.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="salarii">
+        <h2>Salarii in IT</h2>
+
+        <table>
+            <tr>
+                <th>Profesie</th>
+                <th>Salariu</th>
+            </tr>
+
+            <tr>
+                <th>Web Developer</th>
+                <th>1500 - 4000 $</th>
+            </tr>
+
+            <tr>
+                <th>Software Developer</th>
+                <th>2000 - 5000 $</th>
+            </tr>
+
+            <tr>
+                <th>Cyber Security</th>
+                <th>2500 - 6000 $</th>
+            </tr>
+
+            <tr>
+                <th>Network Admin</th>
+                <th>1200 - 3000 $</th>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <form>
+            <input type="text" id="nume" placeholder="Numele tau">
+
+            <input type="email" id="email" placeholder="Email">
+
+            <textarea id="mesaj" placeholder="Mesaj"></textarea>
+
+            <button type="submit" onclick="trimiteMesaj()">Trimite</button>
+        </form>
+    </section>
+    </div>
+
+    <footer>
+        <p>Site despre cariera în IT</p>
+    </footer>
+    
+</body>
+</html>
