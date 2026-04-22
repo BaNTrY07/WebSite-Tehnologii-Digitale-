@@ -1,5 +1,4 @@
-# WebSite-Tehnologii-Digitale-
-# Login System Website
+# WebSite-Tehnologii-Digitale
 
 ## 📌 Description
 Un sistem complet construit cu HTML, CSS și JavaScript.
